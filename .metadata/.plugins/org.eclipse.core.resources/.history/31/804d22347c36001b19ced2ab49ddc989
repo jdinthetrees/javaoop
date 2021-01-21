@@ -1,0 +1,45 @@
+package com.johndang;
+
+public class Calculator implements java.io.Serializable {
+	
+	private double operandOne;
+	private double operandTwo;
+	private String operation;
+	
+	public Calculator() {
+		
+	}
+	
+	public double setOperandOne(double num) {
+		this.operandOne = num;
+	}
+	
+	public double getOperandOne() {
+		return this.operandOne;
+	}
+	
+	public double setOperandTwo(double num) {
+		this.operandTwo = num;
+	}
+	
+	public double getOperandTwo() {
+		return this.operandTwo;
+	}
+	
+	public double performOperation() {
+		double result = 0;
+		if(operation == "+") {
+			result = operandOne + operandTwo;
+		} else if (operation == "-") {
+			result = operandOne - operandTwo;
+			
+		}
+		return result;
+	}
+	
+	public void getResults() {
+		System.out.println(Format.toString(Calculator.performOperation()));
+	}
+	
+
+}

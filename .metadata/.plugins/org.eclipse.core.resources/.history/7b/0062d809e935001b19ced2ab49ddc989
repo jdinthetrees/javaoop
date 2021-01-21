@@ -1,0 +1,11 @@
+package com.johndang;
+
+public class IPhone extends Phone {
+
+	@Override
+	public void displayInfo() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.johndang;
+
+public class ProjectTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Project test = new Project();
+		
+    	test.elavatorPitch("test", "Test");
+        
+	}
+
+}

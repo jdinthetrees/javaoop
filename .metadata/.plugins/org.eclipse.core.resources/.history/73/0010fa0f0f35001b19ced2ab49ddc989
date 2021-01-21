@@ -1,0 +1,27 @@
+package com.johndang;
+
+public class ProjectTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Project test = new Project();
+//		String name="KittyRoomba";
+//		String description="cat on a Roomba";
+		test.setName("KittyRoomba");
+		test.setDescription("cat on a Roomba");
+//		test.getName();
+//		test.getDescription();
+    	test.elavatorPitch();
+    	
+    	  //getters/setters
+        Project newProject = new Project("Java Bootcamp", "Become a Java Ninja @Dojo");
+            // System.out.println(newProject.getName());
+            // System.out.println(newProject.getDesc());
+        System.out.println("Project:  " + newProject.getName() + " : " + newProject.getDescription());
+        newProject.setName("Gardening");
+        newProject.setDescription("Learn to have a green thumb!");     
+        System.out.println("Project:  " + newProject.getName() + " : " + newProject.getDescription());
+        
+	}
+
+}

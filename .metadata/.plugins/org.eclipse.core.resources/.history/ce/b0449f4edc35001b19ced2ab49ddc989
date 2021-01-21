@@ -1,0 +1,16 @@
+package com.johndang;
+
+public class BankAccountTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BankAccount bankAccount = new BankAccount();
+		System.out.println("Account number is: " + bankAccount.getAccountNumber());
+		System.out.println("Number of accounts: " + bankAccount.getNumberOfAccounts());
+		System.out.println("Number of accounts: " + bankAccount.getCheckingBalance());
+		System.out.println("Number of accounts: " + bankAccount.getSavingsBalance());
+	
+	
+	}
+
+}
